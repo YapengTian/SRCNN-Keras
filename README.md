@@ -2,7 +2,7 @@
 Implement SRCNN via Keras with Theano as backend. For a fair comparison with published works, low-resolution images are produced by Matlab imresize function.
 
 # Use pre-trained model
-run SRCNN_test.m in “test” folder
+run SRCNN_test.m in “test” folder (training set is Yang91)
 
 # Training
 1. generate training patches using matlab 
@@ -16,7 +16,7 @@ run SRCNN_test.m in “test” folder
 
 # Differences with the original implementation
 1. use Adam to optimize the network for fast convergence
-2. train *2,*3 and *4 simultaneously like the VDSR (CVPR 16)
+2. train upscaling factor = 2, 3 and 4 simultaneously like the VDSR (CVPR 16)
  
 # Dependencies
 [Theano](http://github.com/Theano/Theano), [Keras](http://github.com/fchollet/keras), [Matconvnet](http://www.vlfeat.org/matconvnet/).
