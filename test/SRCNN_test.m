@@ -25,7 +25,7 @@ X = double(X);
 %Generate LR image
 im_l = imresize(X, 1/up_scale, 'bicubic')/255;
 %% SRCNN
-im_h_y = SRCNN_Matconvnet(im_l, model);
+im_h_y = SRCNN_Matconvnet(im_l, model, up_scale);
 im_h = double(im_h_y * 255);
 %% Show
 lr = imresize(grd, 1/up_scale, 'bicubic');
