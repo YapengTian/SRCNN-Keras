@@ -3,7 +3,7 @@ Implement SRCNN via Keras with Theano as backend. For a fair comparison with pub
 
 # Training
 1. generate training patches using matlab 
-2. use Keras with Theano as backend
+2. use Keras with Theano as backend to train SRCNN model
 3. convert Keras model to .Mat for testing using Matconvnet
 
 # Dependencies
