@@ -16,7 +16,7 @@ run SRCNN_test.m in “test” folder (training set is Yang91)
 
 # Differences with the original implementation
 1. use Adam to optimize the network for fast convergence
-2. train upscaling factor = 2, 3 and 4 simultaneously like the VDSR (CVPR 16)
+2. train upscaling factor = 2, 3 and 4 model simultaneously like the VDSR (CVPR 16)
  
 # Dependencies
 [Theano](http://github.com/Theano/Theano), [Keras](http://github.com/fchollet/keras), [Matconvnet](http://www.vlfeat.org/matconvnet/).
