@@ -12,7 +12,7 @@ run SRCNN_test.m in “test” folder
 # How to train your model?
 1. generate training patches 
 2. run SRCNN.py to produce SRCNN model
-3. run load_save.py first then save_model.m to produce Matconvnet model 
+3. run load_save.py first, then run save_model.m to produce Matconvnet model 
 
 # Differences with the original implementation
 1. use Adam to optimize the network for fast convergence
