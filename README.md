@@ -3,7 +3,7 @@
 2. Implement SRCNN via Keras with Theano as backend. For a fair comparison with published works, low-resolution images are produced by Matlab imresize function.
 
 # Use pre-trained model
-run SRCNN_test.m in “test” folder (training set is Yang91)
+run SRCNN_test.m in “test” folder (training set is Yang91+BSD200)
 upscaling factor = 3
 
 # Training
