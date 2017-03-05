@@ -6,7 +6,7 @@ load('SRCNN_keras.mat')
 % set parameters
 up_scale = 3;
 %%
-im_path = 'data/Set5/';
+im_path = 'data/Set14/';
 im_dir = dir( fullfile(im_path, '*bmp') );
 im_num = length( im_dir );
 for img = 1:im_num,
