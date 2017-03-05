@@ -8,6 +8,7 @@ upscaling factor = 3
 
 # Training
 Note: more data and better result
+
 1. generate training patches using matlab 
 2. use Keras with Theano as backend to train SRCNN model
 3. convert Keras model to .Mat for testing using Matconvnet
