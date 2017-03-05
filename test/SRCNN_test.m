@@ -54,7 +54,6 @@ im_bic = shave(im_bic, [up_scale, up_scale]);
 %% 
 savefile( lr, grd, our,im_bic, im_dir(img).name);
 %% Evaluation
-up_scale = 3;
 X = shave(uint8(X), [up_scale, up_scale]);
 im_h = shave(uint8(im_h), [up_scale, up_scale]);
 pp_psnr = compute_rmse(X, im_h);

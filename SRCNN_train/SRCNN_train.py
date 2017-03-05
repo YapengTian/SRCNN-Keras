@@ -32,12 +32,12 @@ def PSNRLoss(y_true, y_pred):
 def step_decay(epoch):
 	initial_lrate = 0.001
 	drop = 0.1
-	epochs_drop = 20.0
+	epochs_drop = 20
 	lrate = initial_lrate * math.pow(drop, math.floor((1+epoch)/epochs_drop))
 	return lrate
 
 	##paramaters
-batch_size = 128
+batch_size = 64
 nb_epoch = 50
 #input imaage dimensions
 img_rows, img_cols = 33, 33
@@ -96,8 +96,8 @@ history = model.fit(in_train, out_train, batch_size=batch_size, nb_epoch=nb_epoc
 print(history.history.keys())
 #save model and weights
 json_string = model.to_json()  
-open('convert/srcnn_model.json','w').write(json_string)  
-model.save_weights('convert/srcnn_model_weights.h5') 
+open('srcnn_model.json','w').write(json_string)  
+model.save_weights('srcnn_model_weights.h5') 
 # summarize history for loss
 plt.plot(history.history['PSNRLoss'])
 plt.plot(history.history['val_PSNRLoss'])

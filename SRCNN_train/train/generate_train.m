@@ -4,7 +4,7 @@ folder = 'Trainingset';
 savepath = 'train_mscale.h5';
 size_input = 33;
 size_label = 33;
-multi_scale = [2, 3 4];
+multi_scale = [3];
 stride = 14;
 
 %% initialization
