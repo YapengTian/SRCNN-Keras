@@ -1,5 +1,6 @@
 # SRCNN-Keras
-Implement SRCNN via Keras with Theano as backend. For a fair comparison with published works, low-resolution images are produced by Matlab imresize function.
+1. resize functions with 'bicubic' as option in python and matlab are different and published papers recently generally use matlab to produce low-resolution image
+2. Implement SRCNN via Keras with Theano as backend. For a fair comparison with published works, low-resolution images are produced by Matlab imresize function.
 
 # Use pre-trained model
 run SRCNN_test.m in “test” folder (training set is Yang91)
