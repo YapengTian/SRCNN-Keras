@@ -27,5 +27,8 @@ Note: more data and better result
 
 If this code is helpful for you, please cite this paper: "Image Super-Resolution Using Deep Convolutional Networks".
 
+# Note
+this code is based on Keras-1. 
+
 
 
